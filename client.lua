@@ -28,6 +28,10 @@ Citizen.CreateThread(function()
 	RequestIplAsync("vw_casino_billboard_lod")
 	RequestIplAsync("vw_int_placement_vw")
 	RefreshInterior(275201)
+		
+	-- Casino Garage
+	RequestIplAsync("vw_casino_garage")
+	RequestIplAsync("vw_casino_carpark")
 
 	-- Casino Penthouse
 	RequestIplAsync("vw_casino_penthouse")
